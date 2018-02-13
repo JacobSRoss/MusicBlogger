@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" prefHeight="547.0" prefWidth="729.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jsrxr6musicblog.WriterController">
+   <children>
+      <Button layoutX="14.0" layoutY="508.0" mnemonicParsing="false" onAction="#handleGoToListen" text="Listen!" />
+      <Button layoutX="645.0" layoutY="508.0" mnemonicParsing="false" onAction="#handleGoToAboutMe" text="About Me" />
+      <HTMLEditor fx:id="htmlEditor" htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" prefHeight="443.0" prefWidth="729.0" />
+      <Button layoutX="339.0" layoutY="455.0" mnemonicParsing="false" onAction="#handleSavePress" text="Save" />
+   </children>
+</AnchorPane>
